@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <title>Profil</title>
+        <meta charset="UTF-8">
+        <script src="/js/upravljanjeNavigacijom.js"></script>
+        <script src="/js/profil.js"></script>
+    </head>
+
+    <body>
+        <header>Profil</header>
+        <nav>#navigacija#</nav>
+        <main>
+            <div id="poruka">#poruka#</div><br><br>
+            <form id="forma">
+
+                <label for="ime">Ime</label><br>
+                <input type="text" name="ime" id="ime"><br>
+
+                <label for="prezime">Prezime</label><br>
+                <input type="text" name="prezime" id="prezime"><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email"><br>
+
+                <label for="godinaRodjenja">Godina rođenja</label><br>
+                <input type="text" name="godina_rodjenja" id="godina_rodjenja"><br>
+
+                <label for="drzava">Država</label><br>
+                <input type="text" name="drzava" id="drzava"><br>
+
+                <label for="zupanija">Županija</label><br>
+                <input type="text" name="zupanija" id="zupanija"><br>
+
+                <label for="korime">Korisničko ime</label><br>
+                <input type="text" name="korime" id="korime"><br>
+
+                <label for="lozinka">Lozinka</label><br>
+                <input type="password" name="lozinka" id="lozinka"><br><br>
+            </form>
+            <button type="button" id="azuriraj" form="forma">Ažuriraj podatke</button>
+            <a href="/" style="text-decoration: none; color: red;" id="vratiMe">Vrati me na početnu (nemate prava pristupa)</a>
+        </main>
+        <footer></footer>
+    </body>
+</html>

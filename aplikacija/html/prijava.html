@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hr">
+    <head>
+        <title>Prijava</title>
+        <meta charset="UTF-8">
+        <script src="/js/upravljanjeNavigacijom.js"></script>
+    </head>
+
+    <body>
+        <header>Prijava</header>
+        <nav>#navigacija#</nav>
+        <main>
+            <div id="poruka">#poruka#</div>
+            <form action="/prijava" method="POST">
+                <br><br>
+                <label for="korime">Korisničko ime</label><br>
+                <input name="korime" type="text"><br>
+                <label for="lozinka">Lozinka</label><br>
+                <input name="lozinka" type="text"><br><br>
+                <button type="submit">Šalji</button>
+                <br><br>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Korisničko ime |</th>
+                                <th>Lozinka</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>admin</td>
+                                <td>rwa</td>
+                            </tr>
+                            <tr>
+                                <td>obican</td>
+                                <td>rwa</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
